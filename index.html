@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#10120f" />
+    <title>페이퍼 수익률</title>
+    <meta
+      name="description"
+      content="국장 워뇨띠 카피와 폴리마켓 페이퍼 트레이딩 수익률. 수치는 data/ 파일에서 읽습니다."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tape" aria-hidden="true"></div>
+    <header class="wrap top">
+      <div>
+        <p class="eyebrow">모의매매</p>
+        <h1>페이퍼 수익률</h1>
+        <p class="lede">
+          국장 워뇨띠 카피와 폴리마켓 장부입니다. 화면에 있는 금액과 수익률은
+          <code>data/</code> 파일을 읽어 그립니다.
+        </p>
+        <p class="color-key"><i class="dot up" aria-hidden="true"></i><i class="dot down" aria-hidden="true"></i>빨강은 상승, 파랑은 하락입니다.</p>
+      </div>
+      <div class="top-side">
+        <div class="chips" id="updated" aria-live="polite"></div>
+        <nav class="jump" aria-label="섹션">
+          <a href="#kr">국장</a>
+          <a href="#pm">폴리마켓</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <p class="disclaimer" role="note">
+        이 페이지는 페이퍼 트레이딩 기록입니다. 실제 주문, 체결, 계좌 잔고가 아니며
+        투자 권유가 아닙니다.
+      </p>
+      <main id="app">
+        <p class="loading">자료를 읽는 중…</p>
+      </main>
+      <footer class="foot">
+        <p>페이퍼 트레이딩 기록. 수치는 코드에 적지 않고 data/에서 읽습니다.</p>
+      </footer>
+    </div>
+
+    <noscript>
+      <p class="wrap disclaimer">차트를 보려면 자바스크립트가 필요합니다.</p>
+    </noscript>
+    <script src="vendor/chart.umd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

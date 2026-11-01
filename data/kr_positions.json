@@ -1,0 +1,193 @@
+{
+ "asof": "2026-10-30",
+ "bankroll": 10000000,
+ "equity": 9694000,
+ "cash": 2258200,
+ "realized": -79350,
+ "positions": [
+  {
+   "name": "삼성증권",
+   "code": "016360",
+   "entry": 79000,
+   "shares": 12,
+   "stop": 74000,
+   "entry_date": "2026-10-16",
+   "ref_avg": 77784,
+   "ref_src": "추정",
+   "close": 80400,
+   "pnl": 16800,
+   "pnl_pct": 1.77,
+   "vs_avg": 3.36,
+   "stop_breached": false,
+   "stop_dist": -7.96
+  },
+  {
+   "name": "한국금융지주",
+   "code": "071050",
+   "entry": 152100,
+   "shares": 6,
+   "stop": 141500,
+   "entry_date": "2026-10-16",
+   "ref_avg": 153567,
+   "ref_src": "추정",
+   "close": 152200,
+   "pnl": 600,
+   "pnl_pct": 0.07,
+   "vs_avg": -0.89,
+   "stop_breached": false,
+   "stop_dist": -7.03
+  },
+  {
+   "name": "클래시스",
+   "code": "214150",
+   "entry": 28150,
+   "shares": 35,
+   "stop": 26500,
+   "entry_date": "2026-10-21",
+   "ref_avg": 27648,
+   "ref_src": "공개",
+   "close": 26200,
+   "pnl": -68250,
+   "pnl_pct": -6.93,
+   "vs_avg": -5.24,
+   "stop_breached": true,
+   "stop_dist": 1.15
+  },
+  {
+   "name": "코웨이",
+   "code": "021240",
+   "entry": 106100,
+   "shares": 9,
+   "stop": 98800,
+   "entry_date": "2026-10-22",
+   "ref_avg": 103199,
+   "ref_src": "공개",
+   "close": 104000,
+   "pnl": -18900,
+   "pnl_pct": -1.98,
+   "vs_avg": 0.78,
+   "stop_breached": false,
+   "stop_dist": -5.0
+  },
+  {
+   "name": "기아",
+   "code": "000270",
+   "entry": 106900,
+   "shares": 9,
+   "stop": 101000,
+   "entry_date": "2026-10-23",
+   "ref_avg": 104597,
+   "ref_src": "공개",
+   "close": 95600,
+   "pnl": -101700,
+   "pnl_pct": -10.57,
+   "vs_avg": -8.6,
+   "stop_breached": true,
+   "stop_dist": 5.65
+  },
+  {
+   "name": "크래프톤",
+   "code": "259960",
+   "entry": 194400,
+   "shares": 5,
+   "stop": 180800,
+   "entry_date": "2026-10-16",
+   "ref_avg": 192095,
+   "ref_src": "추정",
+   "close": 182100,
+   "pnl": -61500,
+   "pnl_pct": -6.33,
+   "vs_avg": -5.2,
+   "stop_breached": false,
+   "stop_dist": -0.71
+  },
+  {
+   "name": "현대그린푸드",
+   "code": "453340",
+   "entry": 19680,
+   "shares": 50,
+   "stop": 18350,
+   "entry_date": "2026-10-16",
+   "ref_avg": 18755,
+   "ref_src": "공개",
+   "close": 19330,
+   "pnl": -17500,
+   "pnl_pct": -1.78,
+   "vs_avg": 3.07,
+   "stop_breached": false,
+   "stop_dist": -5.07
+  },
+  {
+   "name": "영원무역",
+   "code": "111770",
+   "entry": 67400,
+   "shares": 14,
+   "stop": 66050,
+   "entry_date": "2026-10-26",
+   "ref_avg": 72799,
+   "ref_src": "추정",
+   "close": 69100,
+   "pnl": 23800,
+   "pnl_pct": 2.52,
+   "vs_avg": -5.08,
+   "stop_breached": false,
+   "stop_dist": -4.41
+  }
+ ],
+ "watch": [
+  {
+   "name": "SK바이오팜",
+   "code": "326030",
+   "ref_avg": 68499,
+   "trigger": "<=70500 & >=66500",
+   "stop": 67100,
+   "close": 77700
+  },
+  {
+   "name": "오리온",
+   "code": "271560",
+   "ref_avg": 104500,
+   "trigger": "<=107600 & >=101400",
+   "stop": 103000,
+   "close": 114800
+  }
+ ],
+ "pending_sells": [
+  {
+   "name": "클래시스",
+   "code": "214150",
+   "breach_date": "2026-10-30",
+   "breach_close": 26200,
+   "stop": 26500
+  },
+  {
+   "name": "기아",
+   "code": "000270",
+   "breach_date": "2026-10-30",
+   "breach_close": 95600,
+   "stop": 101000
+  }
+ ],
+ "closed": [
+  {
+   "name": "경동나비엔",
+   "code": "009450",
+   "entry": 61900,
+   "shares": 16,
+   "exit": 57800,
+   "exit_date": "2026-10-27",
+   "realized": -65600,
+   "pct": -6.62
+  },
+  {
+   "name": "JYP Ent.",
+   "code": "035900",
+   "entry": 39000,
+   "shares": 25,
+   "exit": 38450,
+   "exit_date": "2026-10-27",
+   "realized": -13750,
+   "pct": -1.41
+  }
+ ]
+}

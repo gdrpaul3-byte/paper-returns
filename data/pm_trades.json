@@ -1,0 +1,21 @@
+{
+ "source": "Notion 폴리마켓 페이퍼 장부, last edited 2026-08-31 07:06 KST",
+ "bankroll": 1000,
+ "equity": 972.84,
+ "cash": 0.1,
+ "open_pnl": 22.84,
+ "realized": -50.0,
+ "closed": [
+  {
+   "opened": "2026-08-25 13:21",
+   "market": "SPX Aug25 OPEN",
+   "side": "Down",
+   "shares": 151.52,
+   "price": 0.33,
+   "cost": 50.0,
+   "realized": -50.0
+  }
+ ],
+ "open_count": 21,
+ "note": "21 open positions listed in Notion (entry 08-22 to 08-31); full per-position detail on the Notion page"
+}
